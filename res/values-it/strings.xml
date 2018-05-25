@@ -558,7 +558,8 @@
   <string name="screen_off_animation_scale">Scala</string>
   <!-- Screenshot editor -->
   <!-- Suppress notification sound/vibration -->
-  <string name="notification_sound_vib_screen_on_title">Notifiche con suono e vibrazioni anche se lo schermo è acceso</string>
+  <string name="notification_sound_vib_screen_on_title">Notifica sonora a schermo acceso</string>
+  <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>
   <string name="notification_sound_vib_screen_on_never">Mai</string>
   <string name="notification_sound_vib_screen_on_always">Sempre (predefinito)</string>
   <string name="notification_sound_vib_screen_on_nomedia">Senza riproduzione multimediale</string>
@@ -750,6 +751,20 @@
   <string name="pref_scrollingcache_force_disable">Forza disabilitazione</string>
   <string name="less_boring_heads_up_title">Heads up meno intrusive</string>
   <string name="less_boring_heads_up_summary">Mostra le heads up solo per telefono e SMS</string>
+  
+  <string name="color_picker_simple_dialog_title">Seleziona un colore per il led</string>
+
+  <string name="lockscreen_clock_style_category_title">Stile elementi lockscreen e ambient</string>
+  <string name="lockscreen_clock_selection_title">Stile orologio</string>
+  <string name="lockscreen_clock_selection_digital">Default</string>
+  <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
+  <string name="lockscreen_clock_selection_analog">Analogico</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
+  <string name="lockscreen_date_selection_title">Stile data</string>
+  <string name="lockscreen_date_selection_default">Default</string>
+  <string name="lockscreen_date_selection_str_box">Box semi trasparente</string>
+  <string name="lockscreen_date_selection_str_round">Box semi trasparente (tondo)</string>
   <!-- QuickSettings Panel Transparency -->
   <!-- Tiles animation/interpolator style  -->
   <!-- Lockscreen visualizer -->
