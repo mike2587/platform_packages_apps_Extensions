@@ -35,12 +35,11 @@
         android:summary="@string/force_expanded_notifications_summary"
         android:defaultValue="false" />
 
-    <ListPreference
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"
-        android:entries="@array/notification_sound_vib_screen_on_entries"
-        android:entryValues="@array/notification_sound_vib_screen_on_values"
-        android:summary="%s" />
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
 
         <ListPreference
             android:key="less_notification_sounds"

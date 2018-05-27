@@ -50,7 +50,6 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
 
     private ListPreference mTickerMode;
     private ListPreference mTickerAnimation;
-    private ListPreference mNoisyNotification;
     private ListPreference mAnnoyingNotification;
 
     @Override
@@ -77,14 +76,6 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
                 1, UserHandle.USER_CURRENT);
         mTickerAnimation.setValue(String.valueOf(tickerAnimationMode));
         mTickerAnimation.setSummary(mTickerAnimation.getEntry());
-
-        mNoisyNotification = (ListPreference) findPreference("notification_sound_vib_screen_on");
-        mNoisyNotification.setOnPreferenceChangeListener(this);
-        int mode = Settings.System.getIntForUser(getContentResolver(),
-                Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON,
-                1, UserHandle.USER_CURRENT);
-        mNoisyNotification.setValue(String.valueOf(mode));
-        mNoisyNotification.setSummary(mNoisyNotification.getEntry());
 
         mAnnoyingNotification = (ListPreference) findPreference("less_notification_sounds");
         mAnnoyingNotification.setOnPreferenceChangeListener(this);
@@ -114,14 +105,6 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
             int index = mTickerMode.findIndexOfValue((String) newValue);
             mTickerMode.setSummary(
                     mTickerMode.getEntries()[index]);
-            return true;
-        } else if (preference.equals(mNoisyNotification)) {
-            int mode = Integer.parseInt(((String) newValue).toString());
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.NOTIFICATION_SOUND_VIB_SCREEN_ON, mode, UserHandle.USER_CURRENT);
-            int index = mNoisyNotification.findIndexOfValue((String) newValue);
-            mNoisyNotification.setSummary(
-                    mNoisyNotification.getEntries()[index]);
             return true;
         } else if (preference.equals(mAnnoyingNotification)) {
             int mode = Integer.parseInt(((String) newValue).toString());
