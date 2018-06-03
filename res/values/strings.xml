@@ -929,10 +929,6 @@
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
 
-    <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
-
     <string name="chooser_activity_blacklist_title">Chooser Activity blacklist</string>
     <string name="chooser_activity_blacklist_summary">Apps to not show when tapping on a Share button</string>
     <string name="chooser_activity_blacklist_cat_title">Blacklist</string>
