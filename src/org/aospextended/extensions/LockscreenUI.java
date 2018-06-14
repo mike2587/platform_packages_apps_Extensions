@@ -53,10 +53,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
     private static final String FP_CAT = "lockscreen_ui_general_category";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
     private static final String KEY_LOCKSCREEN_CLOCK_SELECTION = "lockscreen_clock_selection";
     private static final String KEY_LOCKSCREEN_DATE_SELECTION = "lockscreen_date_selection";
 
     private SystemSettingSwitchPreference mFingerprintVib;
+    private SystemSettingSwitchPreference mFpKeystore;
     private FingerprintManager mFingerprintManager;
     private ListPreference mLockscreenClockSelection;
     private ListPreference mLockscreenDateSelection;
@@ -80,6 +82,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+        mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
 
          if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()){
         mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
@@ -87,6 +90,7 @@ public class LockscreenUI extends SettingsPreferenceFragment implements OnPrefer
         mFingerprintVib.setOnPreferenceChangeListener(this);
         } else {
         fingerprintCategory.removePreference(mFingerprintVib);
+        fingerprintCategory.removePreference(mFpKeystore);
         }
         
         mLockscreenClockSelection = (ListPreference) findPreference(KEY_LOCKSCREEN_CLOCK_SELECTION);
