@@ -26,6 +26,12 @@
             android:summary="@string/navbar_toggle_summary"
             android:persistent="false" />
 
+        <Preference
+            android:key="pulse_settings"
+            android:title="@string/pulse_settings"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="org.aospextended.extensions.fragments.PulseSettings" />        
+        
     <Preference
             android:title="@string/navbar_tuner_title"
             android:dependency="navigation_bar_show" >
