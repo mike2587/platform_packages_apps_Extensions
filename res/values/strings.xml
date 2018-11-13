@@ -435,5 +435,12 @@
     <string name="weather_title">Weather</string>
     <string name="weather_unit">Temperature unit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
-    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>    <!-- QS rows and columns -->
+    
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    
 </resources>

@@ -58,6 +58,11 @@
             android:entries="@array/smart_pulldown_entries"
             android:entryValues="@array/smart_pulldown_values"
             android:persistent="false" />
+        
+        <Preference
+        android:key="qs_rows_columns"
+        android:fragment="org.aospextended.extensions.fragments.QsRowsColumns"
+        android:title="@string/qs_rows_columns_title"/>
 
     </PreferenceCategory>
 
