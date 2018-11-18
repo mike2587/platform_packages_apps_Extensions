@@ -485,4 +485,20 @@
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
     
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Smart notification sounds</string>
+    <string name="less_notification_sounds_summary">Play the notification sound of each app only once per set time period</string>
+    <string name="less_notification_sounds_default">App default</string>
+    <string name="less_notification_sounds_10s">Every 10 seconds</string>
+    <string name="less_notification_sounds_30s">Every 30 seconds</string>
+    <string name="less_notification_sounds_1m">Every minute</string>
+    <string name="less_notification_sounds_2m">Every 2 minutes</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>    
+    
+    <string name="incall_notifications_vibrate">Less annoying in-call notifications</string>
+    <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string>    
+      
 </resources>
