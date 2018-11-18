@@ -29,6 +29,12 @@
         android:title="@string/incall_notifications_vibrate"
         android:summary="@string/incall_notifications_vibrate_summary"
         android:defaultValue="false" />    
+    
+    <org.aospextended.extensions.preference.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />    
 
     <PreferenceCategory
         android:key="headsup_notifications_category"
