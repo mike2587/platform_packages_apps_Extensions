@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.extensions;
+package org.aospextended.extensions.fragments;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

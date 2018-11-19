@@ -92,7 +92,7 @@ public class Notifications extends SettingsPreferenceFragment implements OnPrefe
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
     
             if (preference.equals(mAnnoyingNotification)) {
                     int mode = Integer.parseInt(((String) newValue).toString());
