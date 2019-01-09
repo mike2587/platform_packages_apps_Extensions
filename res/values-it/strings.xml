@@ -44,4 +44,16 @@
     <string name="lockscreen_power_menu_disabled_title">Menu power sicuro</string>
     <string name="lockscreen_power_menu_disabled_summary">Non mostrare il menu power nella lockscreen sicura</string>    
     
+    <string name="lockscreen_clock_style_category_title">Stile elementi lockscreen e ambient</string>
+    <string name="lockscreen_clock_selection_title">Stile orologio</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digitale (grassetto)</string>
+    <string name="lockscreen_clock_selection_analog">Analogico</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (grassetto)</string>
+    <string name="lockscreen_date_selection_title">Stile data</string>
+    <string name="lockscreen_date_selection_default">Default</string>
+    <string name="lockscreen_date_selection_str_box">Box semi trasparente</string>
+    <string name="lockscreen_date_selection_str_round">Box semi trasparente (tondo)</string>    
+    
 </resources>
