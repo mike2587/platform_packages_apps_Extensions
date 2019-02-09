@@ -365,4 +365,21 @@
     <!-- Recents panel settings -->
     <!-- Oreo Recents Style -->
     <!-- Smart Pixels -->
+    <string name="notification_sound_vib_screen_on_title">Notifica sonora a schermo acceso</string>
+    <string name="notification_sound_vib_screen_on_summary">Riproduci suono e vibrazione per le notifiche quando lo schermo è acceso</string>
+
+    <string name="incall_notifications_vibrate">Notifiche in chiamata meno intrusive</string>
+    <string name="incall_notifications_vibrate_summary">Vibra invece di suonare per le notifiche durante le chiamate</string>    
+
+    <string name="less_notification_sounds_title">Suoni notifica intelligenti</string>
+    <string name="less_notification_sounds_summary">Riproduci le notifiche sonore consecutive di ogni app solo dopo il tempo impostato</string>
+    <string name="less_notification_sounds_default">App default</string>
+    <string name="less_notification_sounds_10s">Ogni 10 secondi</string>
+    <string name="less_notification_sounds_30s">Ogni 30 secondi</string>
+    <string name="less_notification_sounds_1m">Ogni minuto</string>
+    <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
+
+    <string name="lockscreen_power_menu_disabled_title">Menu power sicuro</string>
+    <string name="lockscreen_power_menu_disabled_summary">Non mostrare il menu power nella lockscreen sicura</string>     
+    
 </resources>
